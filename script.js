@@ -58,8 +58,7 @@ resetBtn.addEventListener('click', () => {
 })
 
 document.addEventListener('click', (event) => {
-    console.log(event)
     if(event.target.className == 'color-box') {
-        event.target.remove()
+        event.target.remove();
     }
 })
